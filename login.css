@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial,  sans-serif;
+}
+.background {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background: linear-gradient(135deg,#6a11cb,#2575fc, #36d1dc,
+    #5b86e5,
+    #e55ba7);
+}
+.login-box{
+    width:340px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.login-box h2{
+    margin-bottom: 20px;
+}
+.input-box{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.input-box label{
+    font-size: 14px;
+    color: #555;
+}
+.input-box input{
+    width: 100%;
+    padding: 8px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline:none;
+}
+.forgot{
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.forgot a{
+    text-decoration: none;
+    color: gray;
+
+}
+.login-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right,
+    #36d1dc,
+    #5b86e5,
+    #e55ba7);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.or-text{
+    margin: 20px 0 10px;
+    font-size: 14px;
+    color: gray;
+
+}
+.social-icons span{
+   display:inline-block;
+   width: 35px;
+   height:35px;
+   line-height:35px;
+   border-radius: 50%;
+   color: white;
+   margin: 5px;
+   font-weight: bold;
+}
+.fb{ background: #3b5998;}
+.tw{ background: #1da1f2;}
+.gg{ background: #db4437;}
+.signup-text{
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+.signup-text a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #2575fc;
+}
